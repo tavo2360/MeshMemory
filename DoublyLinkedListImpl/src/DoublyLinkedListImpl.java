@@ -2,9 +2,10 @@ import java.util.NoSuchElementException;
  
 public class DoublyLinkedListImpl<E> {
  
-    private Node head;
+    private Node head; 
     private Node tail;
     private int size;
+    
      
     public DoublyLinkedListImpl() {
         size = 0;
@@ -18,6 +19,8 @@ public class DoublyLinkedListImpl<E> {
         E element;
         Node next;
         Node prev;
+        int ipcelular;
+        int numeroDeDispositivo;
  
         public Node(E element, Node next, Node prev) {
             this.element = element;
